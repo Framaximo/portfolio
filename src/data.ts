@@ -26,7 +26,7 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "No Disponible :c"}]
     ,media: [
       { source: "/images/games/Rudimentus/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://youtu.be/xqm9O_nOjCk", type: MediaType.YouTube },
+      { source: "https://youtu.be/embed/xqm9O_nOjCk", type: MediaType.YouTube },
       { source: "/images/games/Rudimentus/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Rudimentus/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/Rudimentus/Screenshot_4.png", type: MediaType.Image },],
@@ -41,10 +41,26 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "No Disponible :c"}]
     ,media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
+      { source: "https://youtu.be/embed/GPM5iFr4e7s", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
     ],
-  }
+  },
+  {
+      name: "Historias sin iluminar",
+      description: "En Historias sin iluminar, el jugador asume el rol de un técnico de luces del Teatro Municipal, encargado de dejar listo el escenario durante sus turnos nocturnos. Sin embargo, las noches en el teatro están lejos de ser normales: fantasmas de distintas épocas habitan entre sus pasillos, cada uno con sus propios recuerdos, penas y razones para seguir allí. A través de decisiones narrativas y minijuegos de reparación, el jugador deberá ayudar o ignorar a estos espíritus, decidiendo si iluminará sus historias… o dejarlas en la oscuridad.",
+      genres: ["Novela visual","Drama"],
+      platforms: [Platform.Windows],
+      engine: GameEngine.Unity,
+      links: [
+        { source: LinkImageSource.ItchIo, url: "No Disponible :c"}]
+      ,media: [
+        { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
+        { source: "https://youtu.be/embed/yzb6QlXSkPo", type: MediaType.YouTube },
+        { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
+        { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
+        { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      ],
+    }
 ];
