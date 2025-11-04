@@ -16,34 +16,30 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "Rudimentus - Turning Point",
+    description: "Eres Sorbe-0, un ser creado en un laboratorio para absorber el poder de los elementales y detener su posible rebelión. Atrapado entre órdenes humanas y emociones emergentes, deberás explorar un complejo científico, enfrentar enemigos y desbloquear habilidades elementales que alteran tanto tu entorno como tu destino.",
+    genres: ["Metroidvania", "Acción","Aventura"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
-    ],
-    media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
-    ],
+      
+      { source: LinkImageSource.ItchIo, url: "No Disponible :c"}]
+    ,media: [
+      { source: "/images/games/Rudimentus/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://youtu.be/xqm9O_nOjCk", type: MediaType.YouTube },
+      { source: "/images/games/Rudimentus/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/Rudimentus/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/Rudimentus/Screenshot_4.png", type: MediaType.Image },],
   },
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "Todo en el Orden Correcto",
+    description: "Todo en el Orden Correcto es un juego de puzzles narrativo que busca representar con sensibilidad la experiencia del Trastorno Obsesivo Compulsivo (TOC). El jugador encarna a Mel, una joven que debe ordenar su casa antes de la llegada de visitas, enfrentándose al estrés y ansiedad que le provoca su necesidad de mantener el orden “perfecto”. A través de mecánicas de colocación de objetos, manejo de estrés y zonas de confort, el jugador experimenta la tensión entre control y descontrol, entendiendo el TOC desde una perspectiva empática y cotidiana.",
+    genres: ["Puzzle", "Narrativa"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
-    ],
-    media: [
+      { source: LinkImageSource.ItchIo, url: "No Disponible :c"}]
+    ,media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
