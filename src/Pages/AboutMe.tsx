@@ -33,21 +33,6 @@ const AboutText = styled.p`
   }
 `;
 
-const CVButton = styled.a`
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s;
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-
 const AboutMe: React.FC = () => {
   return (
     <Container>
@@ -55,9 +40,6 @@ const AboutMe: React.FC = () => {
       <AboutText>
        {PersonalInfo.description}
       </AboutText>
-      <CVButton href={`${PersonalInfo.cvUri}`} download>
-        Download My CV
-      </CVButton>
     </Container>
   );
 };
