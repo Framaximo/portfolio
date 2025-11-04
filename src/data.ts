@@ -1,10 +1,10 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
-  role: "YOUR_ROLE",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  name: "Franco Herrera",
+  role: "Programmer",
+  introduction: "Hey!",
+  description: "I'm a 23 years old university student who focuses mainly on programming. I enjoy learning and challenges, i find programming as interesting as a nice Puzzle.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
