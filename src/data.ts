@@ -5,12 +5,9 @@ export const PersonalInfo: AboutMeData = {
   role: "Programmer",
   introduction: "Hey!",
   description: "I'm a 23 years old university student who focuses mainly on programming. I enjoy learning and challenges, i find programming as interesting as a nice Puzzle.",
-  image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  image: `${process.env.PUBLIC_URL}/images/Prof.jpg`,
   links: {
-    github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
-    linkedIn: "https://www.linkedin.com/in/NAME",
+    github: "https://github.com/Framaximo",
   }
 };
 
